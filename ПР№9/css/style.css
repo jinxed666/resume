@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?familly=Poppins:wght@200;300;400;500;600&display=swap');
+
+@font-face {
+    font-family: 'Audiowide';
+    src: url('../fonts/Audiowide.woff2') format('woff2'),
+         url('../fonts/Audiowide.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 30px;
+}
+
+.sidebar {
+    background-color: #fed0ff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar .main-content h3 {
+    margin-top: 10px;
+}
+
+.sidebar .main-content p {
+    margin-top: 20px;
+}
+
+.sidebar .main-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar .main-content ul li {
+    margin-bottom: 10px;
+}
+
+.container .main-content {
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.container .main-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container .main-content h2 {
+    font-size: 20px;
+    color: #666;
+}
+
+.container .main-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.container .main-content ul li {
+    margin-bottom: 10px;
+}
+
+.container .main-content a {
+    color: #007BFF;
+    text-decoration: none;
+}
